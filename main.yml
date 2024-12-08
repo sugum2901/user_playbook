@@ -2,7 +2,7 @@
 - name: create users
   hosts: dev
   tasks:
-    collections:
+    collection:
       - rhel.user
-    roles:
+    role:
       - rhel.user.newuser
