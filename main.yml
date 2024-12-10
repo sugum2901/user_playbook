@@ -1,6 +1,6 @@
 ---
 - name: create users
-  hosts:
+  hosts: dev
   collections:
     - rhel.user
   roles:
