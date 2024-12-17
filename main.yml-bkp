@@ -1,5 +1,5 @@
 ---
-- name: creating user
+- name: creating users
   hosts: all
   become: yes
   collections:
